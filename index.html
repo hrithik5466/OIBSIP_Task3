@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+     <link rel="stylesheet" href="assets/fonts/fontAwesome/css/all.min.css">
+ 
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+     <link rel="stylesheet" href="style.css">
+     <title>Temperature convert</title>
+   
+</head>
+<body>
+
+    <div class="temp_calculator">
+        <h4 class="title">Convert Temperature</h4>
+        <form action=""name="form">
+            <div class="temp_calculator_inputs">
+                <div class="calculator_value">
+                    <label for="">Value to Convert</label>
+                    <input type="text" placeholder="0" name="value" id="input_value">
+                </div>
+                <div class="calculator_input">
+                    <label for="">From:</label>
+                    <select name="input" id="input">
+                        <option value="celsius">Celsius(°C)</option>
+                        <option value="fahrenheit">Fahrenheit(°F)</option>
+                        
+                    </select>
+                </div>
+                <div class="calculator_input">
+                    <label for="">To:</label>
+                    <select name="output" id="output">
+                        <option value="celsius">Celsius(°C)</option>
+                        <option value="fahrenheit">Fahrenheit(°F)</option>
+                        
+                    </select>
+                </div>
+            </div>
+            <button type="button" id="clear" class="cal-btn">Clear</button>
+            <button type="button" id="convert" class="cal-btn">Convert</button>
+            <div class="result_area">
+                <label for="">Answer:</label>
+                <input type="text" value="" id="result">
+            </div>
+        </form>
+    </div>
+
+
+
+   
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
